@@ -1,0 +1,32 @@
+"name": "Welcome Bot",
+    "description": "A greater welcome bot..",
+    "logo":"https://telegra.ph/file/ad9cb7fc42ec0e5e6d006.jpg",
+    "keywords": [
+      "telegram",
+      "best",
+      "indian"
+    ],
+    "website": "https://github.com/thekinggf/new",
+    "repository": "https://github.com/thekinggf/new",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "value": ""
+        },
+       
+       
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
